@@ -919,12 +919,12 @@ end
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{fuzzy_smart_home_2024,
+@misc{fuzzy_smart_home_2025,
     title={Fuzzy Logic Optimized Controller for Intelligent Assistive Care Environment},
-    author={Rupak Rajbanshi},
-    year={2024},
+    author={Rupak Rajbanshi},{Rikesh Maharjan},{Manjil Shrestha}
+    year={Sepetmber 2, 2025},
     course={MSc Advanced Machine Learning - Evolutionary and Fuzzy Systems},
-    institution={University Name}
+    institution={Softwarica College of IT & E-Commerce},{Coventry University}
 }
 ```
 
