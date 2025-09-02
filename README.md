@@ -97,9 +97,7 @@ test_matlab_installation;
 
 ```
 fuzzy-logic-project/
-├── README.md                          # This file
-├── requirements.txt                   # MATLAB toolbox requirements
-├── Organized_Assignment_Report.md     # Complete project documentation
+├── README.md                          # This file contains the summary of the project
 │
 ├── Part1_FLC_Design/
 │   ├── smart_home_flc.m              # Main FLC implementation
