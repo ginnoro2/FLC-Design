@@ -5,8 +5,7 @@
 % - Rule activation analysis
 % - Performance evaluation
 %
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
+% Author: Rupak Rajbanshi
 
 clear all; close all; clc;
 
