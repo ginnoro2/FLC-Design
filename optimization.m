@@ -2,9 +2,6 @@
 % This script compares Genetic Algorithm (GA), Particle Swarm Optimization (PSO),
 % and Simulated Annealing (SA) on CEC'2005 benchmark functions F1 and F6
 % for dimensions D=2 and D=10
-%
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
 
 clear all; close all; clc;
 
