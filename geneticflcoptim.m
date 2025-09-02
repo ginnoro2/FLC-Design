@@ -2,8 +2,7 @@
 % This script optimizes the membership function parameters of the FLC
 % using genetic algorithm to minimize control error and energy consumption
 %
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
+% Author: Rupak Rajbanshi
 
 clear all; close all; clc;
 
