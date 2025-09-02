@@ -1,9 +1,6 @@
 %% Smart Home Fuzzy Logic Controller & Analysis
 % Combined script: Design, Test, and Visualize FLC
-%
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
-% Date: 2024
+
 
 %% === PART 1: DESIGN THE FLC ===
 clear all; close all; clc;  % Only clear at the very beginning
