@@ -70,8 +70,8 @@ end
 
 ```bash
 # 1. Clone or download the project
-git clone <repository-url>
-cd fuzzy-logic-project
+git clone https://github.com/ginnoro2/FLC-Design.git
+cd FLC-Design
 
 # 2. Open MATLAB and navigate to project directory
 # 3. Run the setup verification
