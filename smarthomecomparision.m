@@ -1,9 +1,7 @@
 %% Sugeno vs Mamdani Model Comparison for GA Optimization
 % This script demonstrates how the GA optimization would change 
 % when using a Sugeno (TSK) model instead of a Mamdani model
-%
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
+
 
 clear all; close all; clc;
 
