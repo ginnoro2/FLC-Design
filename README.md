@@ -1,4 +1,4 @@
-# Evolutionary and Fuzzy Systems - Assignment Project
+# Evolutionary and Fuzzy Systems 
 
 **Fuzzy Logic Optimized Controller for an Intelligent Assistive Care Environment**
 
@@ -144,7 +144,6 @@ version
 ver
 
 % 3. Set current directory to project folder
-cd('/Users/priyankarai/Desktop/Msc/Advanced ML/Fuzzy /fuzzy logic')
 
 % 4. Clear workspace
 clear all; close all; clc;
@@ -152,7 +151,7 @@ clear all; close all; clc;
 
 ---
 
-## Part 1: FLC Design and Implementation (30 Marks)
+## Part 1: FLC Design and Implementation 
 
 ### Overview
 Design and implement a Mamdani Fuzzy Logic Controller for smart home automation with 5 inputs, 3 outputs, and 22 fuzzy rules.
@@ -226,13 +225,13 @@ plotMembershipFunction(temp_range, mf_params, 'Temperature');
 
 ### Learning Objectives Achieved
 
-- **Implementation Evidence (16 marks)**: Complete MATLAB implementation with screenshots
-- **Design Justifications (7 marks)**: Mamdani model and centroid defuzzification rationale  
-- **Output Analysis (7 marks)**: Rule activation, control surfaces, and performance metrics
+- **Implementation Evidence**: Complete MATLAB implementation with screenshots
+- **Design Justifications**: Mamdani model and centroid defuzzification rationale  
+- **Output Analysis**: Rule activation, control surfaces, and performance metrics
 
 ---
 
-## Part 2: Genetic Algorithm Optimization (10 Marks)
+## Part 2: Genetic Algorithm Optimization 
 
 ### Overview
 Optimize the FLC membership function parameters using Genetic Algorithm to improve controller performance.
@@ -327,7 +326,7 @@ n_samples = 500;  % Increase for better training (200-1000)
 
 ---
 
-## Part 3: Optimization Algorithm Comparison (10 Marks)
+## Part 3: Optimization Algorithm Comparison 
 
 ### Overview
 Compare Genetic Algorithm, Particle Swarm Optimization, and Simulated Annealing on CEC'2005 benchmark functions F1 and F6.
@@ -357,17 +356,6 @@ optimization;
 % Monitor progress
 % The script will display progress for each algorithm and function
 ```
-
-**Expected Runtime:**
-- **Full run (15 runs per algorithm)**: 30-45 minutes
-- **Quick test (5 runs per algorithm)**: 10-15 minutes
-
-**Expected Outputs:**
-- Progress updates in command window
-- Convergence plots for each function/dimension combination
-- Box plots showing statistical distributions
-- Summary CSV file with all results
-- MAT file with complete results data
 
 #### 2. `smarthomecomparision.m` - Domain-Specific Comparison
 
@@ -475,45 +463,7 @@ ga_params.mutation_rate = 0.1;
 % To run:
 sugenomodel;
 ```
-
----
-
-## Step-by-Step Execution Guide
-
-### Complete Project Execution
-
-#### Option 1: Run Everything Automatically
-```matlab
-% Create this master script (copy-paste in MATLAB)
-function run_complete_project()
-    fprintf('=== Starting Complete Fuzzy Logic Project ===\n');
-    
-    % Part 1: FLC Design (5-10 minutes)
-    fprintf('\n Part 1: Designing Smart Home FLC...\n');
-    smart_home_flc;
-    smart_home_analysis;
-    
-    % Part 2: GA Optimization (10-15 minutes)  
-    fprintf('\n Part 2: Running GA Optimization...\n');
-    geneticflc;
-    
-    % Part 3: Algorithm Comparison (30-45 minutes)
-    fprintf('\n Part 3: Comparing Optimization Algorithms...\n');
-    optimization;
-    
-    % Sugeno Model (optional)
-    fprintf('\n Bonus: Creating Sugeno Model...\n');
-    sugenomodel;
-    
-    fprintf('\n Project Completed Successfully!\n');
-    fprintf('Check the fig/ folder for all generated visualizations.\n');
-end
-
-% Run the complete project
-run_complete_project();
-```
-
-#### Option 2: Run Each Part Separately
+**Run Each Part Separately**
 
 **Part 1 Only:**
 ```matlab
@@ -937,20 +887,6 @@ quickTest();
 - Mamdani, E. H., & Assilian, S. (1975). "An experiment in linguistic synthesis with a fuzzy logic controller."
 - Suganthan, P. N., et al. (2005). "Problem definitions and evaluation criteria for the CEC 2005 special session on real-parameter optimization."
 - Kennedy, J., & Eberhart, R. (1995). "Particle swarm optimization."
-
-### Project Statistics
-
-- **Total Lines of Code**: 2,847
-- **Development Time**: ~45 hours  
-- **Functions Implemented**: 47
-- **Test Cases**: 156
-- **Generated Visualizations**: 15+
-- **Performance Improvement**: 29.7%
-- **Algorithm Comparisons**: 180 experiments
-
----
-
-## Contributing
 
 ### Code Style Guidelines
 
