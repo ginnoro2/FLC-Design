@@ -4,9 +4,6 @@
 %
 % Reference: Suganthan, P. N., et al. "Problem definitions and evaluation criteria 
 % for the CEC 2005 special session on real-parameter optimization." (2005)
-%
-% Author: Priyanka Rai
-% Course: Evolutionary and Fuzzy Systems
 
 %% Function 1: Shifted Sphere Function (F1)
 function f = cec2005_f1(x, shift_data)
